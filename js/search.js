@@ -1,5 +1,5 @@
 function searchVideo() {
-      var input = document.getElementById("searchInput").value.toLowerCase();
+      var input = document.getElementById("searchInput").value.trim().toLowerCase();
       var videos = document.querySelectorAll(".video-item");
 
       videos.forEach(function (video) {
